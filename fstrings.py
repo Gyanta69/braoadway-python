@@ -41,6 +41,12 @@ print (result)
 # b = int(input("Please enter a Second number"))
 # result = f'result of {a} and {b} is {a+b}'
 # print(result)
+# assigning one value to multiple variable
+a,b,c = 1
+
+a = 1
+b = 1
+c = 1
 
 
 
