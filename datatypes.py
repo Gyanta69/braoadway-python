@@ -11,7 +11,7 @@ complex
 # datatype conversion
 
 input_number = input("Enter a number")
-print (type(input_number))
+print(type(input_number))
 input_number = int(input_number)
 print(type(input_number))
 input_number = float(input_number)
