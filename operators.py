@@ -37,3 +37,9 @@ a = 2*3 #2*2*2*2
 A = 2*3
 print(a)
 print(A)
+
+# Flow Division
+# Operator //
+a = 109//10
+print (a)
+
