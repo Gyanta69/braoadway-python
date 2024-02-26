@@ -1,3 +1,4 @@
+# A simple system using f string and input variables
 fName = str(input("Enter your first name:"))
 lName = str(input("Enter your last name:"))
 address = str(input("Enter your address:"))

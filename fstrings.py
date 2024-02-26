@@ -1,8 +1,10 @@
+
 # f string is a part of format method
 fName = 'Pragyan'
 lName = 'Khadka'
 fString = 'My name is {} {}'
 print(fString.format(fName, lName))  # format method takes the arguments given by the user and places them in the string where the {} placeholders are
+
 # The format() method takes unlimited number of arguments, and are placed into the respective placeholders
 item_1 = 'Bags'
 item_2 = 'Purse'
@@ -19,8 +21,8 @@ price_2 = 200.499
 w = 'Item one is {0} and item two is {1} and the price is {2} and {3:.2f}' # here .2f indicates decimal values 
 print(w.format(item_1 , item_2 , price_1 , price_2)) 
 
-#Can use the index numbers if we want same values more than once
 
+#Can use the index numbers if we want same values more than once
 age = 18
 name = "Pragyan"
 txt = "My name is {1}. {1} is {0} years old."
