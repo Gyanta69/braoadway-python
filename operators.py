@@ -43,3 +43,59 @@ print(A)
 a = 109//10
 print (a)
 
+# = equal to operator
+a = 2
+b = 3
+
+# double equal to operator
+print (a=b)
+
+# Logical Operators 
+'''
+and
+not
+or
+'''
+# and operator
+print("and ", 2==3 and 3==3)
+
+# or operator
+print ("or", True or True and False)
+print(2==3 or 3==3)
+
+#not operator
+print(not(False))
+
+# Identity Operator
+#is
+#is not
+a = 4
+b = 3
+print(a is b)
+
+#Membership operator
+#in
+#not in
+a = [1,2,3,4,5]
+print(1 in a)
+
+# not in operator
+print("not in")
+print(1 not in a)
+print(2 not in a)
+print(3 not in a)
+print(4 not in a)
+
+a =[1,3]
+b =[1,3]
+print(b in a)
+
+#Bitwise Operator
+'''
+&
+|
+~
+
+'''
+print(4&5)
+
