@@ -50,3 +50,10 @@ while(i<11):
     print(i)
     i = i + 1
 
+a = []
+for i in range(1,10,1):
+    a.append(i)
+print(a)
+# List comprehension
+a=[i for i in range(1,10,1)]
+print(a)
