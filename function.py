@@ -56,4 +56,31 @@ def funct_2(fname,lname):
 a = funct_2(lname="Pragyan",fname="Khadka")
 print(a)
 
+# Aribatrary arguments,*args
+#stores althe value given by the user
+def args_function(*args):
+    print("Test function")
+args_function(1,2,3,4,5,6,7,7,9)
+
+def  child(*character):
+    for i in range(0,len(character)):
+        print("name is",character[i])
+child("pragyan","broadway","test")
+
+
+def add_number(*args):
+    result = 0  
+    for i in args:
+        result = result + i
+    print(result)
+add_number(1,2,3,4,5)
+
+# Aribatrary keyword arguments,*args
+def test_function(a,*args,**kwargs):
+    print(a)
+    print(args)
+    print(kwargs)
+test_function(1,2,3,4,10,5,6,name="Pragyan",test=True)
+
+
 
