@@ -1,6 +1,6 @@
 ### Git Notes
 
-.md Mark down file 
+.md Mark down file
 
 remote repo for github
 
