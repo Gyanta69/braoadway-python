@@ -82,5 +82,22 @@ def test_function(a,*args,**kwargs):
     print(kwargs)
 test_function(1,2,3,4,10,5,6,name="Pragyan",test=True)
 
+def test_function():
+    def inner_func1():
+        print("inner function call")
+    def inner_func2():
+        print("inner 2")
+    inner_func1()
+test_function()
+
+def unique_list(l):
+    x = []
+    for i in l:
+        if i not in x:
+            x.append(i)
+    return x
+print(unique_list([1,2,3,3,3,4,5]))
+
+
 
 
