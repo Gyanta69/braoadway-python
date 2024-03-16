@@ -99,5 +99,24 @@ def unique_list(l):
 print(unique_list([1,2,3,3,3,4,5]))
 
 
+def lower_upper_check(str):
+    print(str)
+    for i in str:
+        if i.isupper():
+            print("Upper Case")
+        elif i.islower():
+            print("Lower Case")
+a = "The Lions"
+lower_upper_check(a)
+
+def even(l):
+    x =[]
+    for i in l:
+        if (i%2 == 0):
+          x.append(i)
+    return(x)
+print(even([1,2,3,4,5,6,7,8,9]))
 
 
+a = (lambda i : i*1)(2)
+print(3)
