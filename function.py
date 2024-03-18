@@ -121,3 +121,13 @@ print(even([1,2,3,4,5,6,7,8,9]))
 a = (lambda i : i*1)(2)
 print(3)
 
+
+def factoril(x):
+    if x == 1:
+        return 1
+    else:
+        return(x * factoril(x-1))
+
+print(factoril(4))
+
+
