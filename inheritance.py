@@ -99,6 +99,7 @@ object = Child6()
 print(object.a)
 '''
 #6
+#multi level inheritance
 '''
 class Parent7():
     x = 11
@@ -111,6 +112,62 @@ object = Child7
 print(object.x)
 print(object.z)'''
 
+#7
+'''
+class Parent5():
+    x = 11
+
+class Parent6():
+    def __init__(self) -> None:
+     self.a= 44 
+    def parent6_test(self):
+       print("This is parent 6 method" + str(self.a))
+
+class Child6(Parent5,Parent6):
+    def __init__(self) -> None:
+        self.z = 22
+        Parent6.__init__(self)
+
+    def child_test(self):   
+       print(self.a) 
+object = Child6()
+print(object.parent6_test())
+'''
+#8
+'''
+class Parent7():
+    def __init__(self) -> None:
+        self.a = 3
+        self.b = 4
+    def add(self):
+        return f'This is parent 7{self.a+self.b}'
+    
+class Parent8(Parent7):
+    def __init__(self) -> None:
+        Parent7.__init__()
+    def diff(self):
+        return f'This is parent 8 {self.a-self.b}'
+       
+class Child7(Parent8):
+    def __init__(self) -> None:
+        Parent8 .__init__(self)
+obj = Child7()
+print(obj.add())
+'''
+#9
+'''
+'''
+
+from abc import ABC,abstractmethod
+class A(ABC):
+    @abstractmethod
+    def test(self):
+        return"This is orignal test"
+    
+class B(A):
+    def test(self):
+        return "This is from class B "
+obj = B()
 
 
     
