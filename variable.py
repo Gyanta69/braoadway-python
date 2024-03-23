@@ -8,7 +8,8 @@ _pragyan_khadka = "Currently 18 years old"
 Testvariable = "Testing"
 testVariable = "Testing"
 pragya1n = "pragyan"
-
+number = 1
+str = "string"
 print(test)
 print(datafromworld)
 print(_pragyan)
@@ -22,8 +23,8 @@ print(pragya1n)
  $pragyan ="pragyan"
  %pragyan ="pragyan"
 '''
-
-
+string = "1"
+v = 33
 
 
 
